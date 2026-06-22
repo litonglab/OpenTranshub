@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/litonglab/transhub_frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/litonglab/transhub_backend
+[submodule "Transhub-Appendix"]
+	path = appendix
+	url = https://github.com/litonglab/Transhub-Appendix
