@@ -2,12 +2,17 @@
 
 Transhub 是一个面向传输协议教学、竞赛与评测场景的 Web 平台。项目由前端界面和后端服务两部分组成，本仓库作为主仓库，通过 Git Submodule 统一关联并管理前后端代码仓库。
 
+### 演示版系统
+
+- 访问地址：[https://transhub.litonglab.com/](https://transhub.litonglab.com/)
+
 ### 项目组成
 
 | 模块 | 目录 | 仓库地址 | 说明 |
 | --- | --- | --- | --- |
 | 前端 | `frontend` | [transhub_frontend](https://github.com/litonglab/transhub_frontend) | 基于 Vue 3、Vite、Vuetify 和 Element Plus 构建，提供用户登录、任务上传、历史记录、排行榜、管理后台等页面 |
 | 后端 | `backend` | [transhub_backend](https://github.com/litonglab/transhub_backend) | 基于 Flask 构建，使用 MySQL、Redis 和 Dramatiq 支持数据管理、用户认证、任务队列、评测与后台处理 |
+| 教学资源 | `appendix` | [Transhub-Appendix](https://github.com/litonglab/Transhub-Appendix) | 提供课件、教学资料和竞赛相关资源 |
 
 ### 仓库结构
 
@@ -15,7 +20,8 @@ Transhub 是一个面向传输协议教学、竞赛与评测场景的 Web 平台
 transhub/
 ├── .gitmodules        # Git Submodule 配置
 ├── frontend/          # 前端子仓库
-└── backend/           # 后端子仓库
+├── backend/           # 后端子仓库
+└── appendix/          # 课件、教学资料和竞赛资源
 ```
 
 ### 克隆项目
@@ -112,4 +118,5 @@ git commit -m "Add Transhub project README and submodules"
 
 - 前端详细说明请查看 `frontend/README.md`
 - 后端详细说明请查看 `backend/Readme.md`
+- 课件、教学资料和竞赛资源请查看 `appendix` 目录
 - 后端部署、配置、任务队列和日志说明以 `backend` 子仓库文档为准
