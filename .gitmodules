@@ -5,5 +5,5 @@
 	path = backend
 	url = https://github.com/litonglab/transhub_backend
 [submodule "Transhub-Appendix"]
-	path = appendix
+	path = docs
 	url = https://github.com/litonglab/Transhub-Appendix
