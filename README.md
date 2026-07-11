@@ -180,6 +180,12 @@ git add .gitmodules frontend backend README.md
 git commit -m "Add Transhub project README and submodules"
 ```
 
+### 致谢
+
+- `backend/project_template/project` 中的网络编程模板基于开源项目 [sourdough](https://github.com/keithw/sourdough/tree/master) 进行组织与扩展。
+- 感谢 `sourdough` 的作者 Keith Winstein 及相关开源贡献者，为本项目的教学训练模板提供了良好的基础。
+- 该模板目录中保留了上游项目的相关说明，具体可参见 `backend/project_template/project/README.md`。
+
 ### 更多说明
 
 - 前端详细说明请查看 `frontend/README.md`
